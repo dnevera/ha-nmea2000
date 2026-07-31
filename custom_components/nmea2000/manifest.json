@@ -1,6 +1,6 @@
 {
   "domain": "nmea2000",
-  "name": "NMEA 2000",
+  "name": "NMEA 2000 (Bumblebee Custom)",
   "codeowners": [
     "@dnevera",
     "@tomer-w"
