@@ -1,5 +1,5 @@
 {
-  "title": "NMEA 2000 Gateway",
+  "title": "NMEA 2000 (Bumblebee Custom)",
   "selector": {
     "gateway_type": {
       "options": {
