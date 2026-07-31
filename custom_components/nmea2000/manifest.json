@@ -2,16 +2,17 @@
   "domain": "nmea2000",
   "name": "NMEA 2000",
   "codeowners": [
+    "@dnevera",
     "@tomer-w"
   ],
   "config_flow": true,
   "dependencies": [],
-  "documentation": "https://github.com/tomer-w/ha-nmea2000",
+  "documentation": "https://github.com/dnevera/ha-nmea2000",
   "integration_type": "hub",
   "iot_class": "local_push",
-  "issue_tracker": "https://github.com/tomer-w/ha-nmea2000/issues",
+  "issue_tracker": "https://github.com/dnevera/ha-nmea2000/issues",
   "requirements": [
-    "nmea2000==2026.5.2"
+    "git+https://github.com/dnevera/nmea2000.git@fix/pgn-126996-hash-collision-per-source#egg=nmea2000"
   ],
-  "version": "2026.5.0"
+  "version": "2026.5.0-fix1"
 }
